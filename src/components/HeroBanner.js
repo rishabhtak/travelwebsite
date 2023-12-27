@@ -75,8 +75,6 @@ const HeroBanner = () => {
     <div className="relative text-white text-[20px] w-full max-w-[1360px] mx-auto">
       <Carousel
         responsive={responsive}
-        //  removeArrowOnDeviceType={["largedesktop"]}
-        //  partialVisible={true}
         infinite={true}
         autoPlaySpeed={3000}
         arrows={true}
