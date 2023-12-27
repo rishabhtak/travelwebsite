@@ -46,7 +46,7 @@ const navData = [
       { id: 7, name: "Weekend Escapes", url: "/activities/weekend-escapes" },
     ],
   },
-  { id: 4, name: "blogs", url: `/blogs?page=1` },
+  { id: 4, name: "blogs", url: `/blogs` },
   { id: 5, name: "about us", url: "/about" },
   { id: 6, name: "contact", url: "/contact" },
 ];

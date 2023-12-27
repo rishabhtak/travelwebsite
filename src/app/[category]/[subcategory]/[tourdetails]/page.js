@@ -1,9 +1,10 @@
-import React from 'react'
+import TourDetails from "@/components/Tour/TourDetails";
+import { getTours } from "@/utils/getTours";
 
-const page = () => {
-  return (
-    <div>Tour Details</div>
-  )
-}
+const page = ({ params }) => {
+  const tours = getTours(params);
+  if (tours.length === 0) return <div>oops no data found</div>;
+  return <TourDetails tourdetail={tours[0]} />;
+};
 
-export default page
+export default page;

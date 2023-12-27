@@ -4,6 +4,7 @@ import { FaAngleRight, FaClockRotateLeft } from "react-icons/fa6";
 
 const PackageCard = ({ item, params }) => {
   console.log("item.attributes.destinations", item.attributes.destinations);
+  console.log("params" + params);
   return (
     <div className="w-full max-w-[300px] overflow-hidden bg-white rounded-lg select-none">
       <div className="overflow-hidden relative">
@@ -52,9 +53,7 @@ const PackageCard = ({ item, params }) => {
           {item.attributes.title}
         </p>
         <Link
-          href={`/${params || item.attributes.destinations}/${
-            item.attributes.slug
-          }`}
+          href={`/destinations/${item.attributes.destinations}/${item.attributes.slug}`}
           className="flex items-center mt-4 group"
         >
           <p className="mr-2 font-medium group-hover:text-eucalyptus hover-underline">
