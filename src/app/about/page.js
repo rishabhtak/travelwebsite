@@ -10,7 +10,7 @@ const page = () => {
             About Us
           </h2>
           <p className="mt-5 md:text-lg">
-            Welcome to Travintour, your gateway to unforgettable travel
+            Welcome your gateway to unforgettable travel
             experiences. Established in September 2022 and headquartered in the
             enchanting city of Jaipur, we are a passionate team of travel
             enthusiasts dedicated to curating exceptional holidays for you. Our
@@ -26,7 +26,7 @@ const page = () => {
                   Our Vision
                 </h2>
                 <p className="mt-5 md:text-lg">
-                  At Travintour, our vision is to redefine the way you
+                  Our vision is to redefine the way you
                   experience the world. We believe that travel is not just about
                   visiting destinations; it's about immersing yourself in new
                   cultures, savouring local flavours, and creating stories that
@@ -171,7 +171,7 @@ const page = () => {
             Join Us on Your Next Adventure
           </h2>
           <p className="mt-5 md:text-lg">
-            Travintour is more than just a travel agency; we are your partners
+            Travelwebsite is more than just a travel agency; we are your partners
             in exploration. Whether you seek the serenity of the Himalayas, the
             vibrant culture of Rajasthan, or the sun-kissed beaches of Goa, we
             have a journey that awaits you.
