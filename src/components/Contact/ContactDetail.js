@@ -26,9 +26,9 @@ const ContactDetail = () => {
           <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
             Email
           </h2>
-          <a href="mailto:travintour@gmail.com">
+          <a href="mailto:mail@mail.com">
             <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-              travintour@gmail.com
+              mail@mail.com
             </p>
           </a>
         </div>
@@ -81,8 +81,8 @@ const ContactDetail = () => {
           <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
             Call us
           </h2>
-          <a href="tel:+91-7793045088">
-            <p className="mt-2 text-sm text-blue-500">+91-7793045088</p>
+          <a href="tel:+91-9876543210">
+            <p className="mt-2 text-sm text-blue-500">+91-9876543210</p>
           </a>
         </div>
       </div>
