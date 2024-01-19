@@ -28,7 +28,7 @@ const page = () => {
                 <p className="mt-5 md:text-lg">
                   Our vision is to redefine the way you
                   experience the world. We believe that travel is not just about
-                  visiting destinations; it's about immersing yourself in new
+                  visiting destinations; it&apos;s about immersing yourself in new
                   cultures, savouring local flavours, and creating stories that
                   last a lifetime. With this vision in mind, we meticulously
                   craft every itinerary to offer you a unique and authentic
@@ -93,7 +93,7 @@ const page = () => {
                   Tailor-Made Packages
                 </h3>
                 <p className="mt-2">
-                  We understand that no two travellers are the same. That's why
+                  We understand that no two travellers are the same. That&apos;s why
                   we specialize in crafting tailor-made packages that suit your
                   preferences, ensuring your journey is as unique as you are.
                 </p>
@@ -178,7 +178,7 @@ const page = () => {
           </p>
           <p className="mt-5 md:text-lg">
             Come, let us turn your wanderlust into wander love. Contact us
-            today, and together, we'll create memories that will last a lifetime
+            today, and together, we&apos;ll create memories that will last a lifetime
           </p>
         </div>
       </div>
