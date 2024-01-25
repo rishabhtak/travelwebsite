@@ -8,31 +8,31 @@ const imgSlider = [
     id: 1,
     img: "/himachal-slide.webp",
     name: "Himachal Pradesh",
-    url: "/himachal pradesh",
+    url: "/destinations/himachal-pradesh",
   },
   {
     id: 2,
     img: "/rajasthan-slide.webp",
     name: "Rajasthan",
-    url: "/rajasthan",
+    url: "/destinations/rajasthan",
   },
   {
     id: 3,
     img: "/goa-slide.webp",
     name: "Goa",
-    url: "/goa",
+    url: "/destinations/goa",
   },
   {
     id: 4,
     img: "/kashmir-slide.webp",
-    name: "Kashmir",
-    url: "/jammu and kashmir",
+    name: "Jammu & Kashmir",
+    url: "/destinations/jammu-kashmir",
   },
   {
     id: 5,
     img: "/uttrakhand-slide.jpg",
     name: "Uttrakhand",
-    url: "/uttarakhand",
+    url: "/destinations/uttarakhand",
   },
 ];
 const Destination = () => {

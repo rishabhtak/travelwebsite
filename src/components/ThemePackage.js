@@ -4,49 +4,49 @@ import Image from "next/image";
 import Link from "next/link";
 
 const themesData = [
-    {
-      id: 1,
-      title: "Safari and Natural Parks",
-      img: "/safari.webp",
-      url: "/safari and natural parks",
-    },
-    {
-      id: 2,
-      title: "Adventure and Trekking",
-      img: "/adventure.webp",
-      url: "/adventure and trekking",
-    },
-    {
-      id: 3,
-      title: "Sea and Beaches",
-      img: "/sea.webp",
-      url: "/sea and beaches",
-    },
-    {
-      id: 4,
-      title: "Mountains, Lakes, and Rivers",
-      img: "/mountains.webp",
-      url: "/mountains, lakes and rivers",
-    },
-    {
-      id: 5,
-      title: "Art, History, and Cultural Trips",
-      img: "/art.webp",
-      url: "/art, history and cultural trips",
-    },
-    {
-      id: 6,
-      title: "Romance and Honeymoon",
-      img: "/romance.webp",
-      url: "/romance and honeymoon",
-    },
-    {
-      id: 7,
-      title: "Weekend Escapes",
-      img: "/weekend.webp",
-      url: "/weekend escapes",
-    },
-  ];
+  {
+    id: 1,
+    title: "Safari and Natural Parks",
+    img: "/safari.webp",
+    url: "/activities/safari-and-natural-parks",
+  },
+  {
+    id: 2,
+    title: "Adventure and Trekking",
+    img: "/adventure.webp",
+    url: "/activities/adventure-and-trekking",
+  },
+  {
+    id: 3,
+    title: "Sea and Beaches",
+    img: "/sea.webp",
+    url: "/activities/sea-and-beaches",
+  },
+  {
+    id: 4,
+    title: "Mountains, Lakes, and Rivers",
+    img: "/mountains.webp",
+    url: "/activities/mountains-and-lakes-and-rivers",
+  },
+  {
+    id: 5,
+    title: "Art, History, and Cultural Trips",
+    img: "/art.webp",
+    url: "/activities/art-and-history-and-cultural-trips",
+  },
+  {
+    id: 6,
+    title: "Romance and Honeymoon",
+    img: "/romance.webp",
+    url: "/activities/romance-and-honeymoon",
+  },
+  {
+    id: 7,
+    title: "Weekend Escapes",
+    img: "/weekend.webp",
+    url: "/activities/weekend-escapes",
+  },
+];
 
 const ThemePackage = () => {
   return (
