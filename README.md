@@ -2,7 +2,7 @@
 
 Built with the Next.js 14 App Router and Tailwind
 
-![Project Image](https://github.com/)
+![Project Image](https://github.com/rishabhtak/travelwebsite/blob/master/public/project-image.png)
 
 ## Features
 
