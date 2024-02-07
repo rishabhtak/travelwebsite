@@ -1,8 +1,35 @@
+# Travel Website Nextjs Project
+
+Built with the Next.js 14 App Router and Tailwind
+
+![Project Image](https://github.com/)
+
+## Features
+
+- Complete built in Next.js 14 and Tailwind
+- Beautiful landing page
+- Added image carousel using react-multi-carousel npm package
+- Added react-markdown npm package for blog posts
+- Added Dynamic pages
+- Added functions to get data from objects
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+To get started with this project, run
+
+```bash
+  git clone https://github.com/rishabhtak/travelwebsite.git
+```
+
+then run this command:
+
+```bash
+npm install
+```
+
+after, run the development server:
 
 ```bash
 npm run dev
