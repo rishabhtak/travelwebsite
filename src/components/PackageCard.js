@@ -2,9 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaAngleRight, FaClockRotateLeft } from "react-icons/fa6";
 
-const PackageCard = ({ item, params }) => {
-  console.log("item.attributes.destinations", item.attributes.destinations);
-  console.log("params" + params);
+const PackageCard = ({ item }) => {
   return (
     <div className="w-full max-w-[300px] overflow-hidden bg-white rounded-lg select-none">
       <div className="overflow-hidden relative">

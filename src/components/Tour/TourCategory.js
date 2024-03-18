@@ -3,9 +3,6 @@ import PackageCard from "../PackageCard";
 import SectionText from "../SectionText";
 
 const TourCategory = ({ tours, params, title }) => {
- /* console.log("params: " + params);
-  console.log("title: " + title);
-  console.log("tours: " + JSON.stringify(tours, null, 2)); */
   return (
     <div className="py-10">
       <div
@@ -16,7 +13,7 @@ const TourCategory = ({ tours, params, title }) => {
       >
         <Wrapper>
           <SectionText title={`${title || ""} tour packages`} />
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {tours.length === 0 ? (
               <div>No Data Found</div>
             ) : (
